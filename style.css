@@ -1,0 +1,94 @@
+style.css {
+  margin: 10px;
+  padding: 50px;
+  box-sizing: content-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(49, 72, 51);
+}
+
+.content {
+  max-width: 900px;
+  background-color: rgb(176, 149, 30);
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 4px 3px 15px black;
+}
+
+.content h1 {
+  padding: 20px;
+  font-size: 45px;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content span {
+  font-size: 25px;
+  color: aqua;
+}
+
+.form-container {
+  display: internal;
+  grid-template-columns: repeat(auto-fit, miramax(400px, 1fr));
+  gap: 40px;
+  margin: 0 20px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid peach;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input,
+select,
+texarea:focus {
+  outline-color: black;
+}
+
+.button {
+  background-color: hsl(from color h s l);
+  padding: 8px 15px;
+  border: transparent solid 2px;
+  border-radius: 5px;
+  color: tomato;
+  transition: 0.4s ease-in;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aqua;
+  border: 2px solid black;
+  color: olivedrab;
+  transition: 0.4s ease out;
+}
+
+.textarea-control {
+  grid-column: 1 / span 2;
+}
+
+.textarea-control textarea {
+  width: 100px;
+}
+
+@media (max-width; 750px) {
+  .textarea-control {
+    grid-column: 1 / span 1;
+  }
+}
