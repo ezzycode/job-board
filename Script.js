@@ -36,6 +36,10 @@ const jobs= [
         logo:"https://via.placeholder.com/80x8.png?text=DL"
         url="https://unsplash.com/photos/a-colorful-wooden-toy-on-a-blue-background-a8NP2AwGZKs"
     } 
+   { 
+       title:"House Keeper",
+       company:"Zillows Home",
+       location:"USA"
 ];
 
 const jobListing=document.getElementById("jobListings"); 
