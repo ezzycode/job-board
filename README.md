@@ -1,4 +1,4 @@
-# job-boardo# Job Board
+# job-board
 
 A simple job board application built and maintained by [ezzycode](https://github.com/ezzycode).
 
