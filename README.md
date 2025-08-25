@@ -15,7 +15,9 @@ This repository aims to provide a platform for posting and discovering job oppor
 
 - Post job openings
 - Browse available positions
-- [Add more features here if applicable]
+- Location based role available
+- Salary range specified
+- Hybrid/Remote/physical
 
 ## Getting Started
 
